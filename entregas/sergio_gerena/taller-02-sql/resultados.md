@@ -1,6 +1,6 @@
 ## Ejercicio 1: Análisis de ventas con JOINs y CTEs
 
-** Escribe una consulta con INNER JOIN que devuelva: nombre del cliente, país, nombre de la pista comprada, género y precio unitario. Limita a 15 filas.**
+**Escribe una consulta con INNER JOIN que devuelva: nombre del cliente, país, nombre de la pista comprada, género y precio unitario. Limita a 15 filas.**
 
 | nombre_cliente | pais    | nombre_pista          | genero | precio_unitario |
 | -------------- | ------- | --------------------- | ------ | --------------- |
@@ -20,7 +20,7 @@
 | Mark Philips   | Canada  | Not The Doctor        | Rock   | 0.99            |
 | Mark Philips   | Canada  | Bleed The Freak       | Rock   | 0.99            |
 
-** Usa un LEFT JOIN para encontrar pistas que nunca han sido vendidas (que no aparecen en InvoiceLine).**
+**Usa un LEFT JOIN para encontrar pistas que nunca han sido vendidas (que no aparecen en InvoiceLine).**
 A continuacion se muestran 10 de las 1519 pistas sin ventas encontradas
 | pista |
 |--------------------------|
@@ -63,7 +63,7 @@ Se muestra el top 6 resultados
 | The Office     | 2.14                     | 6                |
 
 ## Ejercicio 2: Análisis temporal con funciones de ventana
-** Calcula el total de ventas por año y mes (SUBSTR(InvoiceDate, 1, 7)). Ordena cronológicamente.**
+**Calcula el total de ventas por año y mes (SUBSTR(InvoiceDate, 1, 7)). Ordena cronológicamente.**
 | mes     | total_ventas |
 |---------|--------------|
 | 2021-01 | 35.64        |
